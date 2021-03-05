@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Orders;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OrderAddress Class Doc Comment.
@@ -47,7 +47,7 @@ class OrderAddress implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'amazon_order_id' => 'string',
-'shipping_address' => '\ClouSale\AmazonSellingPartnerAPI\Models\Orders\Address',    ];
+'shipping_address' => '\Goletter\AmazonSellingPartnerAPI\Models\Orders\Address',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -220,7 +220,7 @@ class OrderAddress implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_address.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Orders\Address
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Orders\Address
      */
     public function getShippingAddress()
     {
@@ -230,7 +230,7 @@ class OrderAddress implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_address.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Orders\Address $shipping_address shipping_address
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Orders\Address $shipping_address shipping_address
      *
      * @return $this
      */

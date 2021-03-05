@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Authorization;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Authorization;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Error Class Doc Comment.

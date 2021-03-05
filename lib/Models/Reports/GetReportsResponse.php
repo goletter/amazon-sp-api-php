@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Reports;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetReportsResponse Class Doc Comment.
@@ -46,9 +46,9 @@ class GetReportsResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\Reports\ReportList',
+        'payload' => '\Goletter\AmazonSellingPartnerAPI\Models\Reports\ReportList',
 'next_token' => 'string',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\Reports\ErrorList',    ];
+'errors' => '\Goletter\AmazonSellingPartnerAPI\Models\Reports\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class GetReportsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ReportList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Reports\ReportList
      */
     public function getPayload()
     {
@@ -208,7 +208,7 @@ class GetReportsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ReportList $payload payload
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Reports\ReportList $payload payload
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class GetReportsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ErrorList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Reports\ErrorList
      */
     public function getErrors()
     {
@@ -256,7 +256,7 @@ class GetReportsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ErrorList $errors errors
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Reports\ErrorList $errors errors
      *
      * @return $this
      */

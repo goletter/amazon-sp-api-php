@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Services;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Services;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * JobListing Class Doc Comment.
@@ -49,7 +49,7 @@ class JobListing implements ModelInterface, ArrayAccess
         'total_result_size' => 'int',
 'next_page_token' => 'string',
 'previous_page_token' => 'string',
-'jobs' => '\ClouSale\AmazonSellingPartnerAPI\Models\Services\ServiceJob[]',    ];
+'jobs' => '\Goletter\AmazonSellingPartnerAPI\Models\Services\ServiceJob[]',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -276,7 +276,7 @@ class JobListing implements ModelInterface, ArrayAccess
     /**
      * Gets jobs.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Services\ServiceJob[]
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Services\ServiceJob[]
      */
     public function getJobs()
     {
@@ -286,7 +286,7 @@ class JobListing implements ModelInterface, ArrayAccess
     /**
      * Sets jobs.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Services\ServiceJob[] $jobs list of job details for the given input
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Services\ServiceJob[] $jobs list of job details for the given input
      *
      * @return $this
      */

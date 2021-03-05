@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ItemLevelFields Class Doc Comment.
@@ -44,7 +44,7 @@ class ItemLevelFields implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'asin' => 'string',
-'additional_inputs' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList',    ];
+'additional_inputs' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -220,7 +220,7 @@ class ItemLevelFields implements ModelInterface, ArrayAccess
     /**
      * Gets additional_inputs.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList
      */
     public function getAdditionalInputs()
     {
@@ -230,7 +230,7 @@ class ItemLevelFields implements ModelInterface, ArrayAccess
     /**
      * Sets additional_inputs.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList $additional_inputs additional_inputs
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList $additional_inputs additional_inputs
      *
      * @return $this
      */

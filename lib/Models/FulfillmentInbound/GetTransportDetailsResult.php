@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetTransportDetailsResult Class Doc Comment.
@@ -43,7 +43,7 @@ class GetTransportDetailsResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'transport_content' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportContent',    ];
+        'transport_content' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportContent',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -183,7 +183,7 @@ class GetTransportDetailsResult implements ModelInterface, ArrayAccess
     /**
      * Gets transport_content.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportContent
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportContent
      */
     public function getTransportContent()
     {
@@ -193,7 +193,7 @@ class GetTransportDetailsResult implements ModelInterface, ArrayAccess
     /**
      * Sets transport_content.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportContent $transport_content transport_content
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportContent $transport_content transport_content
      *
      * @return $this
      */

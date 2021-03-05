@@ -1,6 +1,6 @@
 <?php
 
-namespace ClouSale\AmazonSellingPartnerAPI;
+namespace Goletter\AmazonSellingPartnerAPI;
 
 class ExceptionThrower
 {

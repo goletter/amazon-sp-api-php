@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Finances;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PayWithAmazonEvent Class Doc Comment.
@@ -47,11 +47,11 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'seller_order_id' => 'string',
-'transaction_posted_date' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'transaction_posted_date' => '\Goletter\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'business_object_type' => 'string',
 'sales_channel' => 'string',
-'charge' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent',
-'fee_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
+'charge' => '\Goletter\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent',
+'fee_list' => '\Goletter\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
 'payment_amount_type' => 'string',
 'amount_description' => 'string',
 'fulfillment_channel' => 'string',
@@ -264,7 +264,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Gets transaction_posted_date.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getTransactionPostedDate()
     {
@@ -274,7 +274,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Sets transaction_posted_date.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DateTime $transaction_posted_date transaction_posted_date
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Finances\DateTime $transaction_posted_date transaction_posted_date
      *
      * @return $this
      */
@@ -336,7 +336,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Gets charge.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent
      */
     public function getCharge()
     {
@@ -346,7 +346,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Sets charge.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent $charge charge
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent $charge charge
      *
      * @return $this
      */
@@ -360,7 +360,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Gets fee_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getFeeList()
     {
@@ -370,7 +370,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Sets fee_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
      *
      * @return $this
      */

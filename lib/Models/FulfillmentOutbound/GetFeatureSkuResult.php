@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetFeatureSkuResult Class Doc Comment.
@@ -50,7 +50,7 @@ class GetFeatureSkuResult implements ModelInterface, ArrayAccess
 'feature_name' => 'string',
 'is_eligible' => 'bool',
 'ineligible_reasons' => 'string[]',
-'sku_info' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSku',    ];
+'sku_info' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSku',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -316,7 +316,7 @@ class GetFeatureSkuResult implements ModelInterface, ArrayAccess
     /**
      * Gets sku_info.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSku
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSku
      */
     public function getSkuInfo()
     {
@@ -326,7 +326,7 @@ class GetFeatureSkuResult implements ModelInterface, ArrayAccess
     /**
      * Sets sku_info.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSku $sku_info sku_info
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSku $sku_info sku_info
      *
      * @return $this
      */

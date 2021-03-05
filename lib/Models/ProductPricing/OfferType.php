@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Goletter\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OfferType Class Doc Comment.
@@ -43,8 +43,8 @@ class OfferType implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'buying_price' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType',
-'regular_price' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
+        'buying_price' => '\Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType',
+'regular_price' => '\Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
 'fulfillment_channel' => 'string',
 'item_condition' => 'string',
 'item_sub_condition' => 'string',
@@ -232,7 +232,7 @@ class OfferType implements ModelInterface, ArrayAccess
     /**
      * Gets buying_price.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType
      */
     public function getBuyingPrice()
     {
@@ -242,7 +242,7 @@ class OfferType implements ModelInterface, ArrayAccess
     /**
      * Sets buying_price.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType $buying_price buying_price
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType $buying_price buying_price
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class OfferType implements ModelInterface, ArrayAccess
     /**
      * Gets regular_price.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getRegularPrice()
     {
@@ -266,7 +266,7 @@ class OfferType implements ModelInterface, ArrayAccess
     /**
      * Sets regular_price.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $regular_price regular_price
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $regular_price regular_price
      *
      * @return $this
      */

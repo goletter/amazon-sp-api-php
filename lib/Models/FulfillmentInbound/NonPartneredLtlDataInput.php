@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * NonPartneredLtlDataInput Class Doc Comment.
@@ -47,7 +47,7 @@ class NonPartneredLtlDataInput implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'carrier_name' => 'string',
-'pro_number' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber',    ];
+'pro_number' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -223,7 +223,7 @@ class NonPartneredLtlDataInput implements ModelInterface, ArrayAccess
     /**
      * Gets pro_number.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber
      */
     public function getProNumber()
     {
@@ -233,7 +233,7 @@ class NonPartneredLtlDataInput implements ModelInterface, ArrayAccess
     /**
      * Sets pro_number.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber $pro_number pro_number
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber $pro_number pro_number
      *
      * @return $this
      */

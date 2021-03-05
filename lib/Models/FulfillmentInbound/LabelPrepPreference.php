@@ -15,7 +15,7 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 /**
  * LabelPrepPreference Class Doc Comment.

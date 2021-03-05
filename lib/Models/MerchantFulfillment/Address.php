@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Address Class Doc Comment.
@@ -46,17 +46,17 @@ class Address implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'name' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName',
-'address_line1' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1',
-'address_line2' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2',
-'address_line3' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3',
-'district_or_county' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty',
-'email' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress',
-'city' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City',
-'state_or_province_code' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode',
-'postal_code' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode',
-'country_code' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode',
-'phone' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber',    ];
+        'name' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName',
+'address_line1' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1',
+'address_line2' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2',
+'address_line3' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3',
+'district_or_county' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty',
+'email' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress',
+'city' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City',
+'state_or_province_code' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode',
+'postal_code' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode',
+'country_code' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode',
+'phone' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -268,7 +268,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets name.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName
      */
     public function getName()
     {
@@ -278,7 +278,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets name.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName $name name
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName $name name
      *
      * @return $this
      */
@@ -292,7 +292,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets address_line1.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1
      */
     public function getAddressLine1()
     {
@@ -302,7 +302,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets address_line1.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1 $address_line1 address_line1
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1 $address_line1 address_line1
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets address_line2.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2
      */
     public function getAddressLine2()
     {
@@ -326,7 +326,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets address_line2.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2 $address_line2 address_line2
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2 $address_line2 address_line2
      *
      * @return $this
      */
@@ -340,7 +340,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets address_line3.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3
      */
     public function getAddressLine3()
     {
@@ -350,7 +350,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets address_line3.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3 $address_line3 address_line3
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3 $address_line3 address_line3
      *
      * @return $this
      */
@@ -364,7 +364,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets district_or_county.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty
      */
     public function getDistrictOrCounty()
     {
@@ -374,7 +374,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets district_or_county.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty $district_or_county district_or_county
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty $district_or_county district_or_county
      *
      * @return $this
      */
@@ -388,7 +388,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets email.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress
      */
     public function getEmail()
     {
@@ -398,7 +398,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets email.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress $email email
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress $email email
      *
      * @return $this
      */
@@ -412,7 +412,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets city.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City
      */
     public function getCity()
     {
@@ -422,7 +422,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets city.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City $city city
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City $city city
      *
      * @return $this
      */
@@ -436,7 +436,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets state_or_province_code.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode
      */
     public function getStateOrProvinceCode()
     {
@@ -446,7 +446,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets state_or_province_code.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode $state_or_province_code state_or_province_code
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode $state_or_province_code state_or_province_code
      *
      * @return $this
      */
@@ -460,7 +460,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets postal_code.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode
      */
     public function getPostalCode()
     {
@@ -470,7 +470,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets postal_code.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode $postal_code postal_code
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode $postal_code postal_code
      *
      * @return $this
      */
@@ -484,7 +484,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets country_code.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode
      */
     public function getCountryCode()
     {
@@ -494,7 +494,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets country_code.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode $country_code country_code
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode $country_code country_code
      *
      * @return $this
      */
@@ -508,7 +508,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets phone.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber
      */
     public function getPhone()
     {
@@ -518,7 +518,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets phone.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber $phone phone
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber $phone phone
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Reports;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ReportDocument Class Doc Comment.
@@ -45,7 +45,7 @@ class ReportDocument implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'report_document_id' => 'string',
 'url' => 'string',
-'encryption_details' => '\ClouSale\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails',
+'encryption_details' => '\Goletter\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails',
 'compression_algorithm' => 'string',    ];
 
     /**
@@ -279,7 +279,7 @@ class ReportDocument implements ModelInterface, ArrayAccess
     /**
      * Gets encryption_details.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails
      */
     public function getEncryptionDetails()
     {
@@ -289,7 +289,7 @@ class ReportDocument implements ModelInterface, ArrayAccess
     /**
      * Sets encryption_details.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails $encryption_details encryption_details
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails $encryption_details encryption_details
      *
      * @return $this
      */

@@ -15,7 +15,7 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 /**
  * UnitOfWeight Class Doc Comment.

@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateFulfillmentReturnResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class CreateFulfillmentReturnResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResult',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList',    ];
+        'payload' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResult',
+'errors' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class CreateFulfillmentReturnResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResult
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResult
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class CreateFulfillmentReturnResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResult $payload payload
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResult $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class CreateFulfillmentReturnResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class CreateFulfillmentReturnResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList $errors errors
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList $errors errors
      *
      * @return $this
      */

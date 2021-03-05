@@ -1,6 +1,6 @@
 <?php
 
-namespace ClouSale\AmazonSellingPartnerAPI;
+namespace Goletter\AmazonSellingPartnerAPI;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;

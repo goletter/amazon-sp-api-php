@@ -15,7 +15,7 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
+namespace Goletter\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
 
 /**
  * SmallAndLightEligibilityStatus Class Doc Comment.

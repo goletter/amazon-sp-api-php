@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Feeds;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Feeds;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CancelFeedResponse Class Doc Comment.
@@ -46,7 +46,7 @@ class CancelFeedResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\Feeds\ErrorList',    ];
+        'errors' => '\Goletter\AmazonSellingPartnerAPI\Models\Feeds\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class CancelFeedResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Feeds\ErrorList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Feeds\ErrorList
      */
     public function getErrors()
     {
@@ -196,7 +196,7 @@ class CancelFeedResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Feeds\ErrorList $errors errors
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Feeds\ErrorList $errors errors
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PurchaseLabelsResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class PurchaseLabelsResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResult',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ErrorList',    ];
+        'payload' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResult',
+'errors' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class PurchaseLabelsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResult
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResult
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class PurchaseLabelsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResult $payload payload
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResult $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class PurchaseLabelsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ErrorList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class PurchaseLabelsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ErrorList $errors errors
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\ErrorList $errors errors
      *
      * @return $this
      */

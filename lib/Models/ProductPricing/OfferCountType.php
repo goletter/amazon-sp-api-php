@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Goletter\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OfferCountType Class Doc Comment.
@@ -47,7 +47,7 @@ class OfferCountType implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'condition' => 'string',
-'fulfillment_channel' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType',
+'fulfillment_channel' => '\Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType',
 'offer_count' => 'int',    ];
 
     /**
@@ -222,7 +222,7 @@ class OfferCountType implements ModelInterface, ArrayAccess
     /**
      * Gets fulfillment_channel.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType
      */
     public function getFulfillmentChannel()
     {
@@ -232,7 +232,7 @@ class OfferCountType implements ModelInterface, ArrayAccess
     /**
      * Sets fulfillment_channel.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType $fulfillment_channel fulfillment_channel
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType $fulfillment_channel fulfillment_channel
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Feeds;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Feeds;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FeedDocument Class Doc Comment.
@@ -45,7 +45,7 @@ class FeedDocument implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'feed_document_id' => 'string',
 'url' => 'string',
-'encryption_details' => '\ClouSale\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails',
+'encryption_details' => '\Goletter\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails',
 'compression_algorithm' => 'string',    ];
 
     /**
@@ -279,7 +279,7 @@ class FeedDocument implements ModelInterface, ArrayAccess
     /**
      * Gets encryption_details.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails
      */
     public function getEncryptionDetails()
     {
@@ -289,7 +289,7 @@ class FeedDocument implements ModelInterface, ArrayAccess
     /**
      * Sets encryption_details.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails $encryption_details encryption_details
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails $encryption_details encryption_details
      *
      * @return $this
      */

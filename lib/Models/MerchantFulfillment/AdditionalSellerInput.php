@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AdditionalSellerInput Class Doc Comment.
@@ -50,11 +50,11 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
 'value_as_string' => 'string',
 'value_as_boolean' => 'bool',
 'value_as_integer' => 'int',
-'value_as_timestamp' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
-'value_as_address' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
-'value_as_weight' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight',
-'value_as_dimension' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length',
-'value_as_currency' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',    ];
+'value_as_timestamp' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
+'value_as_address' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
+'value_as_weight' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight',
+'value_as_dimension' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length',
+'value_as_currency' => '\Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -330,7 +330,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Gets value_as_timestamp.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
      */
     public function getValueAsTimestamp()
     {
@@ -340,7 +340,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Sets value_as_timestamp.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $value_as_timestamp value_as_timestamp
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $value_as_timestamp value_as_timestamp
      *
      * @return $this
      */
@@ -354,7 +354,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Gets value_as_address.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
      */
     public function getValueAsAddress()
     {
@@ -364,7 +364,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Sets value_as_address.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $value_as_address value_as_address
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $value_as_address value_as_address
      *
      * @return $this
      */
@@ -378,7 +378,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Gets value_as_weight.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight
      */
     public function getValueAsWeight()
     {
@@ -388,7 +388,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Sets value_as_weight.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight $value_as_weight value_as_weight
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight $value_as_weight value_as_weight
      *
      * @return $this
      */
@@ -402,7 +402,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Gets value_as_dimension.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length
      */
     public function getValueAsDimension()
     {
@@ -412,7 +412,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Sets value_as_dimension.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length $value_as_dimension value_as_dimension
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length $value_as_dimension value_as_dimension
      *
      * @return $this
      */
@@ -426,7 +426,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Gets value_as_currency.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
      */
     public function getValueAsCurrency()
     {
@@ -436,7 +436,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Sets value_as_currency.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $value_as_currency value_as_currency
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $value_as_currency value_as_currency
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Orders;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetOrderBuyerInfoResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetOrderBuyerInfoResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\Orders\OrderBuyerInfo',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\Orders\ErrorList',    ];
+        'payload' => '\Goletter\AmazonSellingPartnerAPI\Models\Orders\OrderBuyerInfo',
+'errors' => '\Goletter\AmazonSellingPartnerAPI\Models\Orders\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetOrderBuyerInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Orders\OrderBuyerInfo
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Orders\OrderBuyerInfo
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetOrderBuyerInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Orders\OrderBuyerInfo $payload payload
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Orders\OrderBuyerInfo $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetOrderBuyerInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Orders\ErrorList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Orders\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetOrderBuyerInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Orders\ErrorList $errors errors
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Orders\ErrorList $errors errors
      *
      * @return $this
      */

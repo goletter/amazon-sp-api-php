@@ -15,7 +15,7 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Shipping;
 
 /**
  * ServiceType Class Doc Comment.

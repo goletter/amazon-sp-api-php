@@ -15,7 +15,7 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models;
+namespace Goletter\AmazonSellingPartnerAPI\Models;
 
 /**
  * Interface abstracting model access.

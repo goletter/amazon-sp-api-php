@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Orders;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OrderBuyerInfo Class Doc Comment.
@@ -50,7 +50,7 @@ class OrderBuyerInfo implements ModelInterface, ArrayAccess
 'buyer_email' => 'string',
 'buyer_name' => 'string',
 'buyer_county' => 'string',
-'buyer_tax_info' => '\ClouSale\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo',
+'buyer_tax_info' => '\Goletter\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo',
 'purchase_order_number' => 'string',    ];
 
     /**
@@ -316,7 +316,7 @@ class OrderBuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Gets buyer_tax_info.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo
      */
     public function getBuyerTaxInfo()
     {
@@ -326,7 +326,7 @@ class OrderBuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Sets buyer_tax_info.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo $buyer_tax_info buyer_tax_info
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo $buyer_tax_info buyer_tax_info
      *
      * @return $this
      */

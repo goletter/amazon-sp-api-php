@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Finances;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * TrialShipmentEvent Class Doc Comment.
@@ -48,9 +48,9 @@ class TrialShipmentEvent implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'amazon_order_id' => 'string',
 'financial_event_group_id' => 'string',
-'posted_date' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'posted_date' => '\Goletter\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'sku' => 'string',
-'fee_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',    ];
+'fee_list' => '\Goletter\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -258,7 +258,7 @@ class TrialShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -268,7 +268,7 @@ class TrialShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -306,7 +306,7 @@ class TrialShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets fee_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getFeeList()
     {
@@ -316,7 +316,7 @@ class TrialShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets fee_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
      *
      * @return $this
      */

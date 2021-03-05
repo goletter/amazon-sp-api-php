@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * BoxContentsFeeDetails Class Doc Comment.
@@ -46,9 +46,9 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'total_units' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
-'fee_per_unit' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',
-'total_fee' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',    ];
+        'total_units' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
+'fee_per_unit' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',
+'total_fee' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Gets total_units.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
      */
     public function getTotalUnits()
     {
@@ -208,7 +208,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Sets total_units.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $total_units total_units
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $total_units total_units
      *
      * @return $this
      */
@@ -222,7 +222,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Gets fee_per_unit.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
      */
     public function getFeePerUnit()
     {
@@ -232,7 +232,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Sets fee_per_unit.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $fee_per_unit fee_per_unit
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $fee_per_unit fee_per_unit
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Gets total_fee.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
      */
     public function getTotalFee()
     {
@@ -256,7 +256,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Sets total_fee.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $total_fee total_fee
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $total_fee total_fee
      *
      * @return $this
      */

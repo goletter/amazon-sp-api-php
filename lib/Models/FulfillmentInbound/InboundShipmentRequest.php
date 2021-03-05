@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InboundShipmentRequest Class Doc Comment.
@@ -46,8 +46,8 @@ class InboundShipmentRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'inbound_shipment_header' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader',
-'inbound_shipment_items' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList',
+        'inbound_shipment_header' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader',
+'inbound_shipment_items' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList',
 'marketplace_id' => 'string',    ];
 
     /**
@@ -208,7 +208,7 @@ class InboundShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets inbound_shipment_header.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader
      */
     public function getInboundShipmentHeader()
     {
@@ -218,7 +218,7 @@ class InboundShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets inbound_shipment_header.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader $inbound_shipment_header inbound_shipment_header
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader $inbound_shipment_header inbound_shipment_header
      *
      * @return $this
      */
@@ -232,7 +232,7 @@ class InboundShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets inbound_shipment_items.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList
      */
     public function getInboundShipmentItems()
     {
@@ -242,7 +242,7 @@ class InboundShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets inbound_shipment_items.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList $inbound_shipment_items inbound_shipment_items
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList $inbound_shipment_items inbound_shipment_items
      *
      * @return $this
      */

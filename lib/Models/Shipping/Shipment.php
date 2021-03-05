@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Shipment Class Doc Comment.
@@ -46,13 +46,13 @@ class Shipment implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'shipment_id' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId',
-'client_reference_id' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId',
-'ship_from' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Address',
-'ship_to' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Address',
-'accepted_rate' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate',
-'shipper' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Party',
-'containers' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerList',    ];
+        'shipment_id' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId',
+'client_reference_id' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId',
+'ship_from' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\Address',
+'ship_to' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\Address',
+'accepted_rate' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate',
+'shipper' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\Party',
+'containers' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\ContainerList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -238,7 +238,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_id.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId
      */
     public function getShipmentId()
     {
@@ -248,7 +248,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_id.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId $shipment_id shipment_id
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId $shipment_id shipment_id
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets client_reference_id.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId
      */
     public function getClientReferenceId()
     {
@@ -272,7 +272,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets client_reference_id.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId $client_reference_id client_reference_id
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId $client_reference_id client_reference_id
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets ship_from.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Address
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\Address
      */
     public function getShipFrom()
     {
@@ -296,7 +296,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets ship_from.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_from ship_from
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_from ship_from
      *
      * @return $this
      */
@@ -310,7 +310,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets ship_to.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Address
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\Address
      */
     public function getShipTo()
     {
@@ -320,7 +320,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets ship_to.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_to ship_to
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_to ship_to
      *
      * @return $this
      */
@@ -334,7 +334,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets accepted_rate.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate
      */
     public function getAcceptedRate()
     {
@@ -344,7 +344,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets accepted_rate.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate $accepted_rate accepted_rate
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate $accepted_rate accepted_rate
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets shipper.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Party
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\Party
      */
     public function getShipper()
     {
@@ -368,7 +368,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets shipper.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Party $shipper shipper
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\Party $shipper shipper
      *
      * @return $this
      */
@@ -382,7 +382,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets containers.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\ContainerList
      */
     public function getContainers()
     {
@@ -392,7 +392,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets containers.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerList $containers containers
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\ContainerList $containers containers
      *
      * @return $this
      */

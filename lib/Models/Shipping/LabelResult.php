@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * LabelResult Class Doc Comment.
@@ -46,9 +46,9 @@ class LabelResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'container_reference_id' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId',
+        'container_reference_id' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId',
 'tracking_id' => 'string',
-'label' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Label',    ];
+'label' => '\Goletter\AmazonSellingPartnerAPI\Models\Shipping\Label',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class LabelResult implements ModelInterface, ArrayAccess
     /**
      * Gets container_reference_id.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId
      */
     public function getContainerReferenceId()
     {
@@ -208,7 +208,7 @@ class LabelResult implements ModelInterface, ArrayAccess
     /**
      * Sets container_reference_id.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId $container_reference_id container_reference_id
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId $container_reference_id container_reference_id
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class LabelResult implements ModelInterface, ArrayAccess
     /**
      * Gets label.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Label
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Shipping\Label
      */
     public function getLabel()
     {
@@ -256,7 +256,7 @@ class LabelResult implements ModelInterface, ArrayAccess
     /**
      * Sets label.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Label $label label
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Shipping\Label $label label
      *
      * @return $this
      */

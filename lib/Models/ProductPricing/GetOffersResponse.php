@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Goletter\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetOffersResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetOffersResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResult',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList',    ];
+        'payload' => '\Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResult',
+'errors' => '\Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetOffersResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResult
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResult
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetOffersResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResult $payload payload
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResult $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetOffersResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetOffersResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList $errors errors
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList $errors errors
      *
      * @return $this
      */

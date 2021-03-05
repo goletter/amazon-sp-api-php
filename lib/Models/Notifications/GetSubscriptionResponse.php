@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Notifications;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Notifications;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetSubscriptionResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetSubscriptionResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\Notifications\Subscription',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\Notifications\ErrorList',    ];
+        'payload' => '\Goletter\AmazonSellingPartnerAPI\Models\Notifications\Subscription',
+'errors' => '\Goletter\AmazonSellingPartnerAPI\Models\Notifications\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetSubscriptionResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Notifications\Subscription
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Notifications\Subscription
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetSubscriptionResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Notifications\Subscription $payload payload
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Notifications\Subscription $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetSubscriptionResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Notifications\ErrorList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Notifications\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetSubscriptionResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Notifications\ErrorList $errors errors
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Notifications\ErrorList $errors errors
      *
      * @return $this
      */

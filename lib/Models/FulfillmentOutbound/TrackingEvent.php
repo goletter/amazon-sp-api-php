@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * TrackingEvent Class Doc Comment.
@@ -46,9 +46,9 @@ class TrackingEvent implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'event_date' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
-'event_address' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress',
-'event_code' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode',
+        'event_date' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+'event_address' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress',
+'event_code' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode',
 'event_description' => 'string',    ];
 
     /**
@@ -217,7 +217,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Gets event_date.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
      */
     public function getEventDate()
     {
@@ -227,7 +227,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Sets event_date.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $event_date event_date
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $event_date event_date
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Gets event_address.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress
      */
     public function getEventAddress()
     {
@@ -251,7 +251,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Sets event_address.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress $event_address event_address
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress $event_address event_address
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Gets event_code.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode
      */
     public function getEventCode()
     {
@@ -275,7 +275,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Sets event_code.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode $event_code event_code
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode $event_code event_code
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InvalidASIN Class Doc Comment.
@@ -44,7 +44,7 @@ class InvalidASIN implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'asin' => 'string',
-'error_reason' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason',    ];
+'error_reason' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -213,7 +213,7 @@ class InvalidASIN implements ModelInterface, ArrayAccess
     /**
      * Gets error_reason.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason
      */
     public function getErrorReason()
     {
@@ -223,7 +223,7 @@ class InvalidASIN implements ModelInterface, ArrayAccess
     /**
      * Sets error_reason.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason $error_reason error_reason
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason $error_reason error_reason
      *
      * @return $this
      */

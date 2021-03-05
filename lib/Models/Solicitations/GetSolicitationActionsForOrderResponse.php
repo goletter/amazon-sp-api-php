@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Solicitations;
+namespace Goletter\AmazonSellingPartnerAPI\Models\Solicitations;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Goletter\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Goletter\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetSolicitationActionsForOrderResponse Class Doc Comment.
@@ -46,9 +46,9 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
      * @var string[]
      */
     protected static $swaggerTypes = [
-        '_links' => '\ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks',
-'_embedded' => '\ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList',    ];
+        '_links' => '\Goletter\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks',
+'_embedded' => '\Goletter\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded',
+'errors' => '\Goletter\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Gets _links.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks
      */
     public function getLinks()
     {
@@ -208,7 +208,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Sets _links.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks $_links _links
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks $_links _links
      *
      * @return $this
      */
@@ -222,7 +222,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Gets _embedded.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded
      */
     public function getEmbedded()
     {
@@ -232,7 +232,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Sets _embedded.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded $_embedded _embedded
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded $_embedded _embedded
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList
+     * @return \Goletter\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList
      */
     public function getErrors()
     {
@@ -256,7 +256,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList $errors errors
+     * @param \Goletter\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList $errors errors
      *
      * @return $this
      */
