@@ -47,21 +47,22 @@ class FulfillmentOrder implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'seller_fulfillment_order_id' => 'string',
-'marketplace_id' => 'string',
-'displayable_order_id' => 'string',
-'displayable_order_date' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
-'displayable_order_comment' => 'string',
-'shipping_speed_category' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategory',
-'delivery_window' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindow',
-'destination_address' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address',
-'fulfillment_action' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentAction',
-'fulfillment_policy' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPolicy',
-'cod_settings' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CODSettings',
-'received_date' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
-'fulfillment_order_status' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentOrderStatus',
-'status_updated_date' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
-'notification_emails' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\NotificationEmailList',
-'feature_constraints' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[]',    ];
+        'marketplace_id' => 'string',
+        'displayable_order_id' => 'string',
+        'displayable_order_date' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+        'displayable_order_comment' => 'string',
+        'shipping_speed_category' => 'string', // '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategory',
+        'delivery_window' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindow',
+        'destination_address' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address',
+        'fulfillment_action' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentAction',
+        'fulfillment_policy' => 'string', // '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPolicy',
+        'cod_settings' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CODSettings',
+        'received_date' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+        'fulfillment_order_status' => 'string', // '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentOrderStatus',
+        'status_updated_date' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+        'notification_emails' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\NotificationEmailList',
+// 'feature_constraints' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[]',
+    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
