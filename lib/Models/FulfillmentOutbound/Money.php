@@ -47,7 +47,7 @@ class Money implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'currency_code' => 'string',
-'value' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Decimal',    ];
+'value' => 'float',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.

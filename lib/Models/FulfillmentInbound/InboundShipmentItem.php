@@ -47,13 +47,13 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'shipment_id' => 'string',
-'seller_sku' => 'string',
-'fulfillment_network_sku' => 'string',
-'quantity_shipped' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
-'quantity_received' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
-'quantity_in_case' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
-'release_date' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType',
-'prep_details_list' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList',    ];
+        'seller_sku' => 'string',
+        'fulfillment_network_sku' => 'string',
+        'quantity_shipped' => 'int',
+        'quantity_received' => 'int',
+        'quantity_in_case' => 'int',
+        'release_date' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType',
+        'prep_details_list' => '\Goletter\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
